@@ -1,5 +1,6 @@
-We formulated theses questions about the company , created a database and added SQL queries for each of these questions to eventually make a diagram 
-
+## Database Configuration
+Update the database credentials in `data.py` before running the project.
+## Questions we used to form our queries
 1-How much revenue does the company make per month?
 2-What are the best-selling products?
 3-Which city generate the most revenue?

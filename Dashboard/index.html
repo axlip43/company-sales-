@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title> Dashboard </title>
+</head>
+<body>
+<nav>
+    <div class="left">
+        <a href="/SQL/company database.sql"> 
+           <i class="fa-solid fa-universal-access"></i>
+           <span>Company_name</span>
+        </a>
+    </div>
+    <div class="right">
+        <a href="https://www.linkedin.com/in/salma-oubaha-a5a33b387/" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Salma Oubaha</span>
+        </a>
+    </div>
+</nav>
+<h2> D a s h b o a r d </h2>
+<section class="boxes">
+ <div class="cells">
+    <div class="cell">
+        <div class="label">Total revenue</div>
+        <div class="value">115370.5 DH</div>
+    </div>
+        
+    <div class="cell">
+        <div class="label">Total customers</div>
+        <div class="value">30</div>
+    </div>
+        
+    <div class="cell">
+        <div class="label">Total orders</div>
+        <div class="value">20</div>
+    </div>
+
+    <div class="cell">
+        <div class="label">Total returns</div>
+        <div class="value">1,500</div>
+    </div>
+ </div>
+</section>
+<section class="dashboard">
+    <div class="chart-container large">
+        <h3 class="chart_title">Revenue by Category</h3>
+        <img src="/Dashboard/images/category.png" alt="Revenue by Category"  class="chart-image large">
+    </div>
+    <div class="chart-container">
+        <h3 class="chart_title">Revenue by Department</h3>
+        <img src="/Dashboard/images/department.png" alt="Revenue by Department" class="chart-image">
+    </div>
+    <div class="chart-container">
+        <h3 class="chart_title">Orders per Employee</h3>
+        <img src="/Dashboard/images/orders.png" alt="Orders by Employee" class="chart-image">
+    </div>
+</section>
+<section class="section-description">
+    <h3 class="title_last" > Interpretation : </h3>
+    <ul>
+        <li>Electronics serves as the primary revenue driver, accounting for nearly two-thirds of total turnover and indicating a highly specialized market focus.</li>
+        <li>Sales Performance dictates the company's financial footprint, with the Sales department acting as the dominant engine of growth compared to support functions.</li>
+        <li>Operational Consistency is maintained across the team, evidenced by an equitable distribution of orders that suggests balanced workload management and uniform employee productivity.</li>
+    </ul>
+</section>
+</body>
+</html>
